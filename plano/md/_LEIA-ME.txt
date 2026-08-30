@@ -1,0 +1,78 @@
+COMO USAR ESTA PASTA
+
+====================
+**DUAS COISAS QUE VALEM O AVISO**
+Nada de código antes da Etapa 0. Ela não escreve funcionalidade, escreve
+decisão: stack, onde mora o upload, dado pessoal, teto de custo mensal. Trocar
+qualquer uma dessas depois significa refazer trabalho.
+
+O deploy acontece na Etapa 3, com o projeto ainda vazio. Parece cedo e é de
+propósito. Subir um esqueleto vazio custa uma tarde. Subir no fim custa uma
+semana de surpresas, e cada surpresa acontece com usuário esperando.
+====================
+
+O QUE É ISTO
+Um plano pronto para começar um projeto web do zero já estruturado, seguro
+e legível, sem precisar remendar depois. São 16 etapas na ordem certa, da
+primeira decisão até o app instalado no celular.
+
+A ideia por trás: segurança, deploy, mobile, acessibilidade, teste e código
+legível nunca ficam mais baratos depois. Todos ficam mais caros. Este plano
+põe cada um no lugar onde ele custa quase nada, que é o começo.
+
+
+COMO COMEÇAR
+1. Copie esta pasta inteira para <raiz do projeto>/plano/md/ (o plano do projeto mora em plano/, e
+   o HTML gerado dele cai na irmã plano/html/). O nome do projeto vai no topo do plano.md.
+2. Passe o caminho da pasta para o Claude.
+
+Só isso. Você não precisa editar arquivo nenhum: o Claude vê que o plano está
+zerado, pergunta o nome do projeto e que tipo de projeto é, preenche, e já
+começa a Etapa 0.
+
+O tipo importa porque as 16 etapas são genéricas. Se for loja virtual, por
+exemplo, entram decisões que elas não cobrem (gateway de pagamento, nota
+fiscal, frete, devolução) e blocos de trabalho que rodam depois da Etapa
+11, antes da operação.
+
+
+O DIA A DIA
+Uma etapa por vez, na ordem. Cada etapa tem um "pronto quando", que é um
+critério que dá para clicar, medir ou rodar. Quem diz que a etapa acabou é
+você, olhando funcionar no navegador. Não o Claude.
+
+Ao fechar uma etapa, marca-se um visto e a data em dois lugares: no arquivo
+da etapa e na linha dela na tabela do plano.md. É a tabela que permite voltar
+ao projeto semanas depois e saber onde parou sem abrir nada.
+
+O Claude carrega o plano.md e só o arquivo da etapa atual. Os outros quinze
+não entram na conversa. É por isso que dá para revisar uma etapa por vez.
+
+
+O QUE É CADA ARQUIVO
+
+  plano.md      O índice do projeto. As decisões travadas, as pendências e a
+                tabela de status das 16 etapas. É o único arquivo lido sempre.
+
+  erros.md      A fila de erros que os usuários reportarem. Começa vazia e
+                nunca termina. Um erro só fecha quando quem reportou confirma
+                que funcionou.
+
+  etapas/       O trabalho. Um arquivo por etapa, da 00 até a 15.
+
+  etapas-loja/  Só para loja virtual: catálogo e carrinho, pagamento e pedido,
+                frete e fiscal, pós-venda. Rodam depois da Etapa 11, antes da
+                12. Se o projeto não for loja, apague esta pasta.
+
+  1 a 4         As regras que valem em toda etapa: como o plano se escreve,
+                como o Claude se comporta executando, as 7 réguas de validação
+                e a lista de anti-padrões.
+
+  5 e 6         Consulta de etapa específica: o checklist do dia 1 (Etapa 0) e
+                a hospedagem em servidor (Etapas 3 e 12).
+
+  saude-do-projeto.md
+                Nota de saúde do projeto, de 0 a 10. Não faz parte do caminho,
+                é um exame: rode quando quiser saber como o projeto está, ou
+                quando bater a sensação de que a casa desarrumou. Serve em
+                qualquer projeto, tenha ele nascido deste plano ou não.
