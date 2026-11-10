@@ -39,7 +39,7 @@ Ao fechar uma etapa, marcar `✅ + data` **aqui e no arquivo dela**. Índice des
 | 0 | Decisões travadas e esqueleto do repo | em andamento, decisões D* | 30/08/2026 |
 | 1 | Java na unha | não iniciada | |
 | 2 | SQL | não iniciada | |
-| 3 | HTML, CSS e JS na unha | não iniciada | |
+| 3 | HTML, CSS e JS na unha | em andamento, 3.1 de 5 | 06/09/2026 |
 
 Etapa em andamento se escreve com a posição: `em andamento, 1.3 de 8`. As Etapas 1-15 do molde (app web) foram apagadas em 30/08/2026 e substituídas pelas três trilhas (desvio registrado na Etapa 0).
 
